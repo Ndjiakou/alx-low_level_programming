@@ -1,7 +1,7 @@
 # include <stdio.h>
 /**
  * main-entry point
- *
+ *print the text
  * return : 0 after printing the function
  */
 int main(void)
