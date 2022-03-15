@@ -4,16 +4,17 @@
 /**
  * main-entry point
  *
- * return: always 0 succesful/correct !
+ * return: always 0 (succesful/correct )
  */
+
 int main(void)
 {
-int n;
+int n ;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-if (n > 0)
+if (n  ==  0)
 {
-	printf("xi is positive\n", n);
+	printf("xi is zero \n", n);
 }
 else if (n < 0)
 {
@@ -21,7 +22,10 @@ else if (n < 0)
 }
 else
 {
-	printf("xi is zero\n", n);
+	printf("xi is positive\n", n);
 }
+
 return (0);
+
+
 }
