@@ -19,6 +19,6 @@ res += multi;
 }
 multi += 1;
 }
-printf("%i\n", res)
+printf("%i\n", res);
 return (0);
 }
