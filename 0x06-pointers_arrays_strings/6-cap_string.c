@@ -27,10 +27,10 @@ return (0);
 }
 }
 /**
- *  * cap_string - capitalizes all words of a string
- *   * @s: string to uppercase
- *    * Return: returns the modified string
- *     */
+ *cap_string - capitalizes all words of a string
+ *@s: string to uppercase
+ *Return: returns the modified string
+ */
 char *cap_string(char *s)
 {
 int count, upper;
