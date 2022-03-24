@@ -27,6 +27,7 @@ default:
 return (0);
 }
 }
+
 /**
  *cap_string - capitalizes all words of a string
  *@s: string to uppercase
