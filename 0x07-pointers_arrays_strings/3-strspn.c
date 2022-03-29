@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  *_strspn - Locates a character in a string
  *@s: This is the main C string to be scanned.
@@ -33,6 +34,4 @@ break;
 i++; /*add x+1*/
 }
 return (count); /*return the value of count*/
-} 
-
-
+}
