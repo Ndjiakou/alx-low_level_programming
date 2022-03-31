@@ -7,6 +7,7 @@
  */
 int _pow_recursion(int x, int y)
 {
+/*base condition*/
 if (y < 0)/*base condition*/
 return (-1);
 else if (y == 1)
