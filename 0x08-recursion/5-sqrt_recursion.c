@@ -5,7 +5,7 @@
  *@n: interger
  *Return: evaluate sqrt
  */
-int _evaluate(int n)
+int _sqrt_recursion(int n)
 {
 return (square(n, 1));
 }
@@ -15,12 +15,13 @@ return (square(n, 1));
  *@val: square root
  *Return: int
  */
-int square(int n, int val)
+int square(int n, int valeur)
 {
-if (val * val < n)
-return  (square(n, val + 1);
-else if (val * val == n)
-return (val);
+if (valeur * valeur == n)/*base condition*/
+return (valeur);
+else if (valeur * valeur < n)
+return  (square(n, valeur + 1));
 else
 return (-1);
 }
+
