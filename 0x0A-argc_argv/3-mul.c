@@ -14,6 +14,6 @@ if (argc != 3)/*si on a pasrecu deux arguments afficher le message d'erreur*/
 printf("Error\n");
 return (1);
 }
-printf("%i\n", atoi(argv[1]) * atoi(argv[2]);/* on affiche la multiplisation de deux entiers*/
+printf("%i\n", atoi(argv[1]) * atoi(argv[2]));/* on affiche la multiplisation de deux entiers*/
 return (0);
 }
