@@ -3,7 +3,7 @@
 #include <ctype.h>
 #include <string.h>
 /**
- *check_num - check - string there are digit
+ *isInteger - check if it is an interger
  *@str: array str
  *
  *Return; Always 0 (Success)
@@ -12,6 +12,7 @@ int isInteger(const char *s)
 {
 /*Declaring variables*/
 int i = 0;
+
 while (s[i] != '\0')
 {
 if (s[i] < '0' || s[i] > '9')
@@ -30,6 +31,7 @@ return (0);
 int main(int argc, char *argv[])
 {
 int sum = 0;
+
 while (--argc)
 {
 if (isInteger(argv[argc]))
