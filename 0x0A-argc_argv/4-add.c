@@ -8,21 +8,18 @@
  *
  *Return; Always 0 (Success)
  */
-int check_num(char *str)
+int isInteger(const char *s)
 {
 /*Declaring variables*/
-unsigned int a;
-a = 0;
-while (a < strlen(str)) /*count string*/
+int i = 0;
+while (s[i] != '\0')
 {
-/*he isdigit() method returns True if all the characters are digits, otherwise False.*/
-if (!isdigit(str[a]))
-{
+if (s[i] < '0' || s[i] > '9')
+return (1);
+i++;
+}
 return (0);
 }
-a++;
-}
-return (1);
 /**
  *main - adds positive numbers
  *@argc: int
